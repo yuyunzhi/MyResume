@@ -1,0 +1,160 @@
+
+*{margin:0;padding:0;box-sizing: border-box}
+*::before{box-sizing: border-box}
+*::after{box-sizing: border-box}
+a,ul,ol,button{list-style: none;color:inherit;outline:none;}
+
+body{
+    background:rgb(56,56,56);
+    font-size:14px;
+}
+
+.page{
+    margin:0 auto;
+    width:1100px;
+    height:1600px;
+    background:rgb(195,188,178);
+    position: relative;
+}
+
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+[v-cloak]{
+    display: none;
+}
+
+
+/***main resume***/
+main.white{
+    width:712px;
+    height:1480px;
+    background:rgb(246,246,246);
+    position: absolute;
+    margin:60px 0;
+    left:50%;
+    top:-50px;
+    transform: translateX(-50%)
+}
+
+main.white .resume{
+    width:650px;
+    height:950px;
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+main.white .resume .info{
+    width:648px;
+    height:116px;
+}
+
+main.white .infoShow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:10px 0;
+}
+
+main.white .infoShow .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+main.white .infoShow .name h1{
+    font-size:24px;
+    margin-bottom:5px;
+}
+main.white .infoShow .infomation{
+
+    margin-left:60px;
+}
+
+main.white .infoShow .infomation .iconAndContent{
+    font-size:13px;
+    display: flex;
+    flex-direction: row;
+    margin:2px 0;
+}
+
+main.white .infoShow .infomation .icon{
+    margin-right:10px;
+    margin-top:2px;
+
+}
+
+main.white .statementShow p{
+    width:100%;
+}
+
+main.white .projectShow .projectName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:6px;
+}
+
+main.white .projectShow .projectName p:nth-child(2){
+    font-size:14px;
+    font-weight: bold;
+}
+
+main.white .projectShow .projectName p:nth-child(1){
+    font-size:14px;
+    font-weight: bold;
+}
+
+main.white .projectShow .projectName a{
+    cursor: pointer;
+}
+
+main.white .projectShow .projectName a:hover{
+    color:blue;
+}
+
+main.white .projectShow .projectDescribe{
+    width:100%;
+    margin-bottom: 16px;
+}
+
+main.white .skills ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main.white .skillShow .skillName{
+    display: flex;
+    flex-direction: row;
+    width:315px;
+    justify-content: space-between;
+}
+
+main.white .skillShow .skillName .name{
+    font-weight: bold;
+}
+
+main.white .skillShow .skillDescribe{
+    display: block;
+    width:315px;
+    height:60px;
+    margin-top: 6px;
+    overflow:hidden;
+}
+
+main.white .skillShow{
+    border:1px dashed #888;
+    margin-bottom:15px;
+}
+

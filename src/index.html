@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/split-line.css">
+    <title>余韵之丨前端工程师</title>
+</head>
+<body>
+
+    <div class="page" id="app">
+
+        <main class="white" v-cloak>
+            <div class="resume">
+                <section class="info" v-cloak>
+                    <div class="infoShow">
+                        <div class="name">
+                            <h1>{{displayresume.info.name}}</h1>
+                            <p>求职岗位：<span>{{displayresume.info.job}}</span></p>
+                        </div>
+                        <div class="infomation">
+                            <div class="iconAndContent">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-location"></use>
+                                </svg>
+                                <span class="content">{{displayresume.info.live}}</span>
+                            </div>
+                            <div class="iconAndContent">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-agentfillmtui"></use>
+                                </svg> 
+                                <span class="content">{{displayresume.info.age}}</span>
+                            </div>
+                            <div class="iconAndContent">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-iostelephone"></use>
+                                </svg> 
+                                <span class="content">{{displayresume.info.telephone}}</span>
+                            </div>
+                            <div class="iconAndContent">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-icon-email"></use>
+                                </svg> 
+                                <span class="content">{{displayresume.info.email}}</span>
+                            </div>
+                            <div class="iconAndContent">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-wechat"></use>
+                                </svg> 
+                                <span class="content">{{displayresume.info.wechat}}</span>
+                            </div>
+                        </div>
+                    </div> 
+                </section> 
+
+                <split-line v-bind:line-name="line.projects"></split-line>
+
+                <section class="projects">
+                    <ul v-cloak>
+                        <li class="oneProject" v-for="(skill,index) in displayresume.projects">
+                            <div class="projectShow">
+                                <div class="projectName">
+                                    <p>{{skill.name}}</p>
+                                    <p>{{skill.useSkill}}</p>
+                                    <a v-bind:href="skill.link" target="_blank">点击预览</a>
+                                </div>
+                                <p class="projectDescribe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{skill.describe}}</p>                
+                            </div>
+                        </li>
+                    </ul>
+                                
+                </section>
+
+                <split-line v-bind:line-name="line.skills"></split-line>                   
+
+                <section class="skills" v-cloak>
+                    <ul>
+                        <li v-for="(skill,index) in displayresume.skills">
+                            <div class="skillShow">
+                                <span class="skillName">
+                                    <span class="name">{{skill.name}}</span>
+                                </span>
+                                <span class="skillDescribe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{skill.describe}}</span>
+                            </div>
+                        </li>
+                    </ul>
+            </section>
+
+            <split-line v-bind:line-name="line.stateself"></split-line>
+            
+            <section class="statement">
+                <div class="statementShow" v-cloak>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>{{displayresume.statement.content}}</span></p>
+                </div>
+            </section>
+            
+            </div>            
+        </main>
+    </div>
+
+
+    <script src="//at.alicdn.com/t/font_722412_j0k0qmnbbq.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="./js/line.js"></script>
+    <script src="./js/root.js"></script>
+</body>
+</html>
