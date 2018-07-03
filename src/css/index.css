@@ -31,7 +31,7 @@ body{
 
 /***main resume***/
 main.white{
-    width:712px;
+    width:815px;
     height:1480px;
     background:rgb(246,246,246);
     position: absolute;
@@ -42,7 +42,7 @@ main.white{
 }
 
 main.white .resume{
-    width:650px;
+    width:685px;
     height:950px;
     position: absolute;
     top:35%;
@@ -148,7 +148,7 @@ main.white .skillShow .skillName .name{
 main.white .skillShow .skillDescribe{
     display: block;
     width:315px;
-    height:60px;
+    height:80px;
     margin-top: 6px;
     overflow:hidden;
 }
