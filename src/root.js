@@ -5,7 +5,7 @@ const app = new Vue({
             info:{
                 name:'余韵之',
                 job:'前端工程师',
-                live:'苏州科技大学',
+                school:'苏州科技大学',
                 telephone:'18964022629',
                 email:'635429583@qq.com',
                 wechat:'lambert1129',
@@ -15,7 +15,7 @@ const app = new Vue({
                 {
                     name:'网易云音乐',
                     useSkill:'JavaScript、jQuery、响应式布局 、MVC、eventHub（发布/订阅模式）、七牛&LeanCloud数据库、Swiper、移动端',
-                    imgLink:'../img/1.jpg',
+                    imgLink:'./img/1.jpg',
                     sourceLink:'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/music-2018-06',
                     previewLink:'https://yuyunzhi.github.io/music-2018-06/src/index.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/38099257',
@@ -24,7 +24,7 @@ const app = new Vue({
                 {
                     name:'Vue在线简历编辑器',
                     useSkill:'vue.js、vue-router.js、keep-alive、组件通信、LeanCloud、媒体查询',
-                    imgLink:'../img/2.jpg',
+                    imgLink:'./img/2.jpg',
                     sourceLink:'https://github.com/yuyunzhi/Vue-resume-2018-06',
                     previewLink:'https://yuyunzhi.github.io/Vue-resume-2018-06/src/index.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/38302712',
@@ -33,7 +33,7 @@ const app = new Vue({
                 {
                     name:'自定义导航网页',
                     useSkill:'原生JavaScript、locationStorage、JSON、favicon、onerror、图床、CSS Gradient Generator',
-                    imgLink:'../img/3.jpg',
+                    imgLink:'./img/3.jpg',
                     sourceLink:'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/navigation-demo',
                     previewLink:'https://link.zhihu.com/?target=https%3A//yuyunzhi.github.io/navigation-demo/index.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/37339023',
@@ -42,7 +42,7 @@ const app = new Vue({
                 {
                     name:'画一只大白',
                     useSkill:'JavaScript、jQuery、Prism.js、Rem响应式页面 、SASS',
-                    imgLink:'../img/4.jpg',
+                    imgLink:'./img/4.jpg',
                     sourceLink:'https://github.com/yuyunzhi/baymax',
                     previewLink:'https://yuyunzhi.github.io/baymax/index.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/37428081',
@@ -51,7 +51,7 @@ const app = new Vue({
                 {
                     name:'无缝轮播',
                     useSkill:'JavaScript、jQuery',
-                    imgLink:'../img/5.jpg',
+                    imgLink:'./img/5.jpg',
                     sourceLink:'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/slides-demo-3',
                     previewLink:'https://link.zhihu.com/?target=https%3A//yuyunzhi.github.io/slides-demo-3/slidesdemo.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/37493742',
@@ -60,7 +60,7 @@ const app = new Vue({
                 {
                     name:'Canvas画板',
                     useSkill:'原生JavaScript、Canvas、移动端、SVG、特性检测',
-                    imgLink:'../img/6.jpg',
+                    imgLink:'./img/6.jpg',
                     sourceLink:'https://github.com/yuyunzhi/drawingBoard',
                     previewLink:'https://yuyunzhi.github.io/drawingBoard/drawing-canvas/canvas.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/37321285',
@@ -69,7 +69,7 @@ const app = new Vue({
                 {
                     name:'2048-Game',
                     useSkill:'JavaScript、jQuery',
-                    imgLink:'../img/7.jpg',
+                    imgLink:'./img/7.jpg',
                     sourceLink:'https://github.com/yuyunzhi/2048-game',
                     previewLink:'https://yuyunzhi.github.io/2048-game/index.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/38485186',

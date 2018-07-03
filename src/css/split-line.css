@@ -1,17 +1,17 @@
 
-main.white .splitLine p{
+main .splitLine p{
     margin-bottom:6px;
     margin-top:18px;
-    font-size: 13px;
+    font-size: 14px;
 }
-main.white .splitLine .outLine{
-    border-top:2px solid rgb(222,222,222);
+main .splitLine .outLine{
+    border-top:3px solid rgb(222,222,222);
     width:100%;
     position: relative;
     margin-bottom:18px;
 }
 
-main.white .splitLine .inLine{
+main .splitLine .inLine{
     border-top:2px solid rgb(32,32,32);
     width:8%;
     position: absolute;

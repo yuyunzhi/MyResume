@@ -12,8 +12,9 @@
 
     <div class="page" id="app">
 
-        <main class="white" v-cloak>
+        <main v-cloak>
             <div class="resume">
+
                 <section class="info" v-cloak>
                     <div class="infoShow">
                         <div class="name">
@@ -23,33 +24,33 @@
                         <div class="infomation">
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-location"></use>
-                                </svg>
-                                <span class="content">{{displayresume.info.live}}</span>
-                            </div>
-                            <div class="iconAndContent">
-                                <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-agentfillmtui"></use>
+                                    <use xlink:href="#icon-icon_naturalpersons"></use>
                                 </svg> 
                                 <span class="content">{{displayresume.info.age}}</span>
                             </div>
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-iostelephone"></use>
+                                    <use xlink:href="#icon-phone"></use>
                                 </svg> 
                                 <span class="content">{{displayresume.info.telephone}}</span>
                             </div>
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-icon-email"></use>
+                                    <use xlink:href="#icon-email"></use>
                                 </svg> 
                                 <span class="content">{{displayresume.info.email}}</span>
                             </div>
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-wechat"></use>
+                                    <use xlink:href="#icon-wechat1"></use>
                                 </svg> 
                                 <span class="content">{{displayresume.info.wechat}}</span>
+                            </div>
+                            <div class="iconAndContent">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-school2"></use>
+                                </svg>
+                                <span class="content">{{displayresume.info.school}}</span>
                             </div>
                         </div>
                     </div> 
@@ -59,14 +60,39 @@
 
                 <section class="projects">
                     <ul v-cloak>
-                        <li class="oneProject" v-for="(skill,index) in displayresume.projects">
+                        <li class="oneProject" v-for="(project,index) in displayresume.projects">
                             <div class="projectShow">
-                                <div class="projectName">
-                                    <p>{{skill.name}}</p>
-                                    <p>{{skill.useSkill}}</p>
-                                    <a v-bind:href="skill.link" target="_blank">点击预览</a>
-                                </div>
-                                <p class="projectDescribe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{skill.describe}}</p>                
+                                <header class="pictureAndLink">
+                                    <img class="projectPicture"v-bind:src="project.imgLink" alt="project picture">
+                                    <aside class="projectLink">
+                                        <div class="links">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-insertlink"></use>
+                                            </svg> 
+                                            <a v-bind:href="project.previewLink" target="_blank">预览链接</a>
+                                        </div>  
+                                        <div class="links">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-insertlink"></use>
+                                            </svg> 
+                                            <a v-bind:href="project.sourceLink"target="_blank">源码链接</a>
+                                        </div>  
+                                        <div class="links">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-blog1"></use>
+                                            </svg> 
+                                            <a v-bind:href="project.blogLink"target="_blank">博客链接</a>
+                                        </div>                                 
+                                    </aside>
+                                </header>
+                                <section>
+                                    <div class="projectName">
+                                        <p>{{project.name}}</p>
+                                        <p>{{project.useSkill}}</p>
+                                        <a v-bind:href="project.link" target="_blank">点击预览</a>
+                                    </div>
+                                    <p class="projectDescribe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{project.describe}}</p>                
+                                </section>
                             </div>
                         </li>
                     </ul>
@@ -95,15 +121,15 @@
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>{{displayresume.statement.content}}</span></p>
                 </div>
             </section>
-            
+
             </div>            
         </main>
     </div>
 
 
-    <script src="//at.alicdn.com/t/font_722412_j0k0qmnbbq.js"></script>
+    <script src="//at.alicdn.com/t/font_732075_ycds47nbd5q.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-    <script src="./js/line.js"></script>
-    <script src="./js/root.js"></script>
+    <script src="./line.js"></script>
+    <script src="./root.js"></script>
 </body>
 </html>
