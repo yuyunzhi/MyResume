@@ -84,7 +84,7 @@ main{
 .oneProject .projectShow{
     border:1px dashed #888;
     margin-bottom:10px;
-    padding: 10px 0;
+    padding: 1vw 0;
 }
 
 .projectShow .pictureAndLink .projectLink{
@@ -126,7 +126,7 @@ main{
 }
 
 .projectShow .content .project span{
-    line-height:5vw;
+    line-height:25px;
 }
 
 .projectShow .content strong{
@@ -176,7 +176,7 @@ main{
 
 main .splitLine p{
     margin-bottom:6px;
-    margin-top:2.8vw;
+    margin-top:3.2vw;
     font-size: 14px;
 }
 main .splitLine .outLine{
