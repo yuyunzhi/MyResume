@@ -193,7 +193,7 @@ main .splitLine .outLine{
 
 main .splitLine .inLine{
     border-top:2px solid rgb(32,32,32);
-    width:15%;
+    width:10%;
     position: absolute;
     bottom:0px;
     left:0;    
