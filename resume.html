@@ -22,7 +22,14 @@
                             <h1>{{displayresume.info.name}}</h1>
                             <p>求职岗位：<span>{{displayresume.info.job}}</span></p>
                         </div>
-                        <split-line class="personalInformation"v-bind:line-name="line.information" v-cloak></split-line>
+
+                        <div class="splitLine personalInformation"v-cloak>
+                            <p><strong>{{line.information}}</strong></p>
+                            <div class="outLine">
+                                <div class="inLine"></div>
+                            </div>
+                        </div>
+                
                         <div class="infomation">
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
@@ -58,7 +65,12 @@
                     </div> 
                 </section> 
 
-                <split-line v-bind:line-name="line.projects"></split-line>
+                <div class="splitLine">
+                    <p><strong>{{line.projects}}</strong></p>
+                    <div class="outLine">
+                        <div class="inLine"></div>
+                    </div>
+                </div>
 
                 <section class="projects">
                     <ul v-cloak>
@@ -116,7 +128,12 @@
                                 
                 </section>
 
-                <split-line v-bind:line-name="line.skills"></split-line>                   
+                <div class="splitLine">
+                    <p><strong>{{line.skills}}</strong></p>
+                    <div class="outLine">
+                        <div class="inLine"></div>
+                    </div>
+                </div>               
 
                 <section class="skills" v-cloak>
                     <ul>
@@ -131,7 +148,13 @@
                     </ul>
             </section>
 
-            <split-line v-bind:line-name="line.stateself"></split-line>
+            <div class="splitLine">
+                <p><strong>{{line.stateself}}</strong></p>
+                <div class="outLine">
+                    <div class="inLine"></div>
+                </div>
+            </div>
+
             
             <section class="statement">
                 <div class="statementShow" v-cloak>
