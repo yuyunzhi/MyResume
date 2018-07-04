@@ -94,89 +94,78 @@ const app = new Vue({
                 }, 
                 {
                     name:'原生JavaScript',
-                    describe:'能够使用原生JS进行dom元素的操作，事件的监听等。用原生JS做了《自定义导航网页》。'
+                    describe:'能够使用原生JS进行 DOM 元素的操作，事件的监听等。用原生JS做了《自定义导航网页》。'
                 }, 
                 {
-                    name:'响应式布局',
-                    describe:'能够使用meta:viewport、媒体查询、动态rem、vw/vh进行响应式布局，用媒体查询做了浏览的这个简历，用rem做了《我是一只大白》。'
+                    name:'响应式布局、移动端适配',
+                    describe:'能够使用meta:viewport、媒体查询、动态rem、vw/vh进行响应式布局，用媒体查询做了该简历，用rem做了《我是一只大白》。'
                 },  
                 {
                     name:'jQuery',
-                    describe:''
+                    describe:'能够使用 jQuery 进行 DOM 操作，使用常见的API完成需求。'
                 },    
                 {
                     name:'Vue.js',
-                    describe:''
+                    describe:'能够使用Vue.js完成需求，了解Vue.js的数据双向绑定、父子兄弟组件间的通信原理，能够使用Vue-Router制作前端路由，能够使用keep-alive进行缓存。'
                 }, 
                 {
                     name:'MVC、Observer设计模式',
-                    describe:''
+                    describe:'了解 MVC、Observer 设计模式，能够运用到实际的开发中。'
                 }, 
                 {
                     name:'new、this、闭包、原型链、作用域',
-                    describe:''
+                    describe:'了解 new 的过程，了解 this、闭包、原型链、作用域的基本概念，并能够熟练使用，写了相应博客。'
                 },    
                 {
                     name:'继承',
-                    describe:''
+                    describe:'了解 ES5 中原型链继承和 ES6 中 class 继承的方法。'
                 }, 
                 {
-                    name:'DOM事件模型',
-                    describe:''
+                    name:'DOM事件模型、事件委托',
+                    describe:'了解 DOM 事件模型，捕获、冒泡、处理三个阶段以及如何阻止事件的传递，并做了一个按钮 demo 。'
                 },   
-
-                {
-                    name:'模块化、组件化',
-                    describe:''
-                }, 
                 {
                     name:'命令行',
-                    describe:''
+                    describe:'了解命令行，能够使用命令行进行常用的操作。'
                 },    
                 {
                     name:'HTTP',
-                    describe:''
+                    describe:'了解 HTTP 基础知识，了解常见状态码含义，能够根据请求查看响应。'
                 }, 
                 {
                     name:'JSONP',
-                    describe:''
+                    describe:'了解JSONP的概念，并写了相应的博客。'
                 },    
                 {
                     name:'AJAX、Promise',
-                    describe:''
+                    describe:'了解AJAX、promise 的概念，并写了相应的博客。'
                 }, 
                 {
                     name:'Cookie和Session',
-                    describe:''
+                    describe:'了解客户端缓存、Cookie、session 等知识，并写了相应博客。'
                 },    
                 {
                     name:'LocalStorage、Cache-Control、Etag',
-                    describe:''
+                    describe:'了解 LocalStorage、Cache-Control、Etag、Expires 等知识，了解几者之间的区别，并写了相应博客。'
                 }, 
                 {
                     name:'Web性能优化',
-                    describe:''
+                    describe:'了解常见的web性能优化方案，并写了相应的博客。'
                 },    
                 {
                     name:'同源策略、跨域',
-                    describe:''
+                    describe:'了解同源策略，以及常用的跨域方法。'
                 }, 
             ],
             statement:{
                 content:'2017年6月毕业于苏州科技大学，在大学期间做个三年的公益教育并在大四担任青年行苏州区域项目负责人，独立负责14万项目运营经费，团队规模70人，半年超额完成公司业绩同时完成团队的传承。毕业后来到上海一家公司做运营，工作四个月接触了前端，发现自己热爱技术。至今为止脱产自学前端半年，热爱写代码，享受通过各种代码组合做出想要成果的过程，享受解决bug的过程，享受创造的过程。'
             },
-            social:{
-                github:'',
-                zhihu:'',
-                wexin:'余韵之',
-            }
         },
         line:{
             information:'信息 / INFORMATION',
             projects:'作品 / PROJECTS',
             skills:'技能 / SKILLS',
             stateself:'经历 / EXPERIENCE',
-            social:'社交 / SOCIAL INTERNET'
         },
 
     },
