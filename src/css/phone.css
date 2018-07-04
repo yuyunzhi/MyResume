@@ -1,18 +1,13 @@
-
 *{margin:0;padding:0;box-sizing: border-box}
 *::before{box-sizing: border-box}
 *::after{box-sizing: border-box}
 a,ul,ol,button{list-style: none;text-decoration: none;color:inherit;}
 
 body{
-    background:rgb(195,188,178);
     font-size:14px;
 }
 
 .page{
-    margin:0 auto;
-    width:1100px;
-    height:1600px;
     position: relative;
 }
 
@@ -27,41 +22,31 @@ body{
     display: none;
 }
 
-.personalInformation{
-    display: none
-}
 
 /**
 resume***/
 main{
-    width:815px;
+    width:100vw;
     background:rgb(246,246,246);
     position: absolute;
-    margin:60px 0;
     left:50%;
-    top:-50px;
+    top:0;
     transform: translateX(-50%)
 }
 
 .resume{
-    width:685px;
+    width:84vw;
     position: relative;
     top:0;
     left:50%;
     transform: translateX(-50%);
-    margin:50px 0;
+    margin:10vw 0;
 }
 
-.resume .info{
-    width:648px;
-    height:116px;
-}
 
 .infoShow{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin:10px 0;
+
+    margin:1.2vw 0;
 }
 
 .infoShow .name{
@@ -69,16 +54,16 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-bottom:7.1vw
 
 }
 
 .infoShow .name h1{
-    font-size:36px;
-    margin-bottom:8px;
+    font-size:24px;
+    margin-bottom:1vw;
 }
 .infoShow .infomation{
-    margin-left:60px;
+    margin-left:1.34vw;
 }
 .infoShow .infomation .iconAndContent{
     font-size:14px;
@@ -88,9 +73,8 @@ main{
 }
 
 .infoShow .infomation .icon{
-    margin-right:10px;
+    margin-right:1.22vw;
     margin-top:2px;
-
 }
 
 .statementShow p{
@@ -102,39 +86,40 @@ main{
     margin-bottom:10px;
     padding: 10px 0;
 }
-.projectShow .pictureAndLink{
+
+.projectShow .pictureAndLink .projectLink{
+    width:90%;
+    position: relative;
+    left:50%;
+    transform: translateX(-48%);
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
-.projectShow .pictureAndLink .projectLink{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: -40px;
-}
-
 .projectShow .pictureAndLink .projectLink .links{
-    margin:15px 0;
+    margin:1.8vw 0;
+    margin-left: -5vw;
 }
 
 
-.projectShow .pictureAndLink .projectLink .links a:hover{
+.projectShow .pictureAndLink .projectLink .links a:active{
     color:blue;
 }
 
 .projectShow .projectPicture{
-    width:520px;
-    height:281px;
+    width:90%;
+    left:50%;
+    transform: translateX(-50%);
     position: relative;
-    margin-bottom:15px;
 }
 .projectShow .content{
     position: relative;
     top:0;
     left:50%;
     transform: translateX(-50%);
-    padding: 0 33px;
+    padding:0 4vw;
+
 }
 .projectShow .content .project{
     margin:5px 0;
@@ -147,7 +132,7 @@ main{
 
 .projectShow .projectDescribe{
     width:100%;
-    margin-bottom: 16px;
+    margin-bottom: 1.9vw;
 }
 
 .skills ul{
@@ -158,7 +143,7 @@ main{
 }
 
 .skills ul li{
-    width:49%;
+    width:100%;
 }
 .skillShow .skillName{
     display: flex;
@@ -172,34 +157,34 @@ main{
 
 .skillShow .skillDescribe{
     display: block;
-    height:80px;
     margin-top: 6px;
     overflow:hidden;
 }
 
 .skillShow{
     border:1px dashed #888;
-    margin-bottom:15px;
+    margin-bottom:1.9vw;
+    padding:5px 1.2vw;
 }
+
 
 /* 组件 */
 
-
 main .splitLine p{
     margin-bottom:6px;
-    margin-top:18px;
+    margin-top:2.2vw;
     font-size: 14px;
 }
 main .splitLine .outLine{
-    border-top:3px solid rgb(222,222,222);
+    border-top:2px solid rgb(222,222,222);
     width:100%;
     position: relative;
-    margin-bottom:18px;
+    margin-bottom:3.2vw;
 }
 
 main .splitLine .inLine{
     border-top:2px solid rgb(32,32,32);
-    width:8%;
+    width:15%;
     position: absolute;
     bottom:0px;
     left:0;    

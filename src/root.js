@@ -89,7 +89,7 @@ const app = new Vue({
                 },              
             ],
             statement:{
-                content:'2017年6月毕业于苏州科技大学，在大学期间做个三年的公益教育并在大四担任青年行苏州区域项目负责人，独立负责14万项目运营经费，团队规模70人，半年超额完成公司业绩同时完成团队的传承。毕业后来到上海一家公司做运营，工作四个月接触了前端，发现自己热爱技术。至今为止脱产自学前端半年，热爱写代码，享受通过各种代码组合出想要的成果的过程，享受解决bug的过程，享受创造的过程。'
+                content:'2017年6月毕业于苏州科技大学，在大学期间做个三年的公益教育并在大四担任青年行苏州区域项目负责人，独立负责14万项目运营经费，团队规模70人，半年超额完成公司业绩同时完成团队的传承。毕业后来到上海一家公司做运营，工作四个月接触了前端，发现自己热爱技术。至今为止脱产自学前端半年，热爱写代码，享受通过各种代码组合做出想要成果的过程，享受解决bug的过程，享受创造的过程。'
             },
             social:{
                 github:'',
@@ -98,10 +98,11 @@ const app = new Vue({
             }
         },
         line:{
-            projects:'项目作品 / PROJECT EXPERIENCE',
+            information:'信息 / INFORMATION',
+            projects:'作品 / PROJECTS',
             skills:'技能 / SKILLS',
-            stateself:'个人经历 / MY EXPERIENCE',
-            social:'社交网站 / SOCIAL INTERNET'
+            stateself:'经历 / EXPERIENCE',
+            social:'社交 / SOCIAL INTERNET'
         },
 
     },

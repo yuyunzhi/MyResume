@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/split-line.css">
+    <link rel="stylesheet" href="./css/phone.css"media="(max-width:767px)">
+    <link rel="stylesheet" href="./css/ipad.css"media="(min-width:768px)">
+    <link rel="stylesheet" href="./css/index.css"media="(min-width:1025px)">
     <title>余韵之丨前端工程师</title>
 </head>
 <body>
@@ -21,6 +22,7 @@
                             <h1>{{displayresume.info.name}}</h1>
                             <p>求职岗位：<span>{{displayresume.info.job}}</span></p>
                         </div>
+                        <split-line class="personalInformation"v-bind:line-name="line.information" v-cloak></split-line>
                         <div class="infomation">
                             <div class="iconAndContent">
                                 <svg class="icon" aria-hidden="true">
