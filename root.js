@@ -20,7 +20,7 @@ const app = new Vue({
                     sourceLink:'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/music-2018-06',
                     previewLink:'https://yuyunzhi.github.io/music-2018-06/src/index.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/38099257',
-                    describe:'移动端播放歌曲、切换、暂停、搜索等功能，PC 端歌曲上传、删除、修改等功能。使用 jQuery、MVC，以及七牛、LeanCloud牛等作为数据库实现。使用vConsole进行调试。'
+                    describe:'移动端播放歌曲、切换、暂停、搜索等功能，PC 端歌曲上传、删除、修改等功能。使用 jQuery、MVC，以及七牛、LeanCloud等作为数据库实现。使用vConsole进行调试。'
                 },
                 {
                     name:'《Vue在线简历编辑器》',
