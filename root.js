@@ -165,7 +165,7 @@ const app = new Vue({
             information:'信息 / INFORMATION',
             projects:'作品 / PROJECTS',
             skills:'技能 / SKILLS',
-            stateself:'经历 / EXPERIENCE',
+            stateself:'经历 / EXPERIENCE'
         },
 
     },
