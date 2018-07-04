@@ -2,7 +2,7 @@
 *{margin:0;padding:0;box-sizing: border-box}
 *::before{box-sizing: border-box}
 *::after{box-sizing: border-box}
-a,ul,ol,button{list-style: none;color:inherit;outline:none;}
+a,ul,ol,button{list-style: none;text-decoration: none;color:inherit;}
 
 body{
     background:rgb(195,188,178);
@@ -32,7 +32,6 @@ body{
 resume***/
 main{
     width:815px;
-    height:1480px;
     background:rgb(246,246,246);
     position: absolute;
     margin:60px 0;
@@ -43,11 +42,11 @@ main{
 
 .resume{
     width:685px;
-    height:950px;
-    position: absolute;
-    top:35%;
+    position: relative;
+    top:0;
     left:50%;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
+    margin:50px 0;
 }
 
 .resume .info{
@@ -72,8 +71,8 @@ main{
 }
 
 .infoShow .name h1{
-    font-size:28px;
-    margin-bottom:5px;
+    font-size:36px;
+    margin-bottom:8px;
 }
 .infoShow .infomation{
     margin-left:60px;
@@ -93,8 +92,13 @@ main{
 
 .statementShow p{
     width:100%;
+    margin-bottom: 10px;
 }
-
+.oneProject .projectShow{
+    border:1px dashed #888;
+    margin-bottom:10px;
+    padding: 10px 0;
+}
 .projectShow .pictureAndLink{
     display: flex;
     justify-content: space-around;
@@ -119,32 +123,23 @@ main{
     width:520px;
     height:281px;
     position: relative;
-    margin-bottom:18px;
+    margin-bottom:15px;
 }
-.projectShow .projectName{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom:6px;
+.projectShow .content{
+    position: relative;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    padding:0 20px;
 }
-
-.projectShow .projectName p:nth-child(2){
-    font-size:14px;
-    font-weight: bold;
-}
-
-.projectShow .projectName p:nth-child(1){
-    font-size:14px;
-    font-weight: bold;
+.projectShow .content .project{
+    margin:5px 0;
 }
 
-.projectShow .projectName a{
-    cursor: pointer;
+.projectShow .content strong{
+    padding-right:5px;
 }
 
-.projectShow .projectName a:hover{
-    color:blue;
-}
 
 .projectShow .projectDescribe{
     width:100%;
@@ -158,10 +153,12 @@ main{
     justify-content: space-between;
 }
 
+.skills ul li{
+    width:49%;
+}
 .skillShow .skillName{
     display: flex;
     flex-direction: row;
-    width:315px;
     justify-content: space-between;
 }
 
@@ -171,7 +168,6 @@ main{
 
 .skillShow .skillDescribe{
     display: block;
-    width:315px;
     height:80px;
     margin-top: 6px;
     overflow:hidden;

@@ -85,13 +85,28 @@
                                         </div>                                 
                                     </aside>
                                 </header>
-                                <section>
-                                    <div class="projectName">
-                                        <p>{{project.name}}</p>
-                                        <p>{{project.useSkill}}</p>
-                                        <a v-bind:href="project.link" target="_blank">点击预览</a>
+                                <section class="content"> 
+                                    <div class="projectName project">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-ic_tabbar_planproject"></use>
+                                        </svg> 
+                                        <span><strong>名称:</strong>{{project.name}}</span>
                                     </div>
-                                    <p class="projectDescribe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{project.describe}}</p>                
+
+                                    <div class="projectKey project">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-keyword"></use>
+                                        </svg> 
+                                        <span><strong>技术:</strong>{{project.useSkill}}</span>
+                                    </div>
+
+                                    <div class="projectDescribe project">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-xie"></use>
+                                        </svg> 
+                                        <span><strong>描述:</strong>{{project.describe}}</span>
+                                    </div>
+                
                                 </section>
                             </div>
                         </li>
@@ -127,7 +142,7 @@
     </div>
 
 
-    <script src="//at.alicdn.com/t/font_732075_ycds47nbd5q.js"></script>
+    <script src="//at.alicdn.com/t/font_732075_qdqpxixzkro.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     <script src="./line.js"></script>
     <script src="./root.js"></script>
