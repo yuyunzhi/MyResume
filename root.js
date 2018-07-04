@@ -134,7 +134,7 @@ const app = new Vue({
                 }, 
                 {
                     name:'JSONP',
-                    describe:'了解JSONP的概念，并写了相应的博客。'
+                    describe:'了解JSONP的概念。'
                 },    
                 {
                     name:'AJAX、Promise',
@@ -146,7 +146,7 @@ const app = new Vue({
                 },    
                 {
                     name:'LocalStorage、Cache-Control、Etag',
-                    describe:'了解 LocalStorage、Cache-Control、Etag、Expires 等知识，了解几者之间的区别，并写了相应博客。'
+                    describe:'了解 LocalStorage、Cache-Control、Etag、Expires 等知识，了解几者之间的区别。'
                 }, 
                 {
                     name:'Web性能优化',
@@ -154,7 +154,7 @@ const app = new Vue({
                 },    
                 {
                     name:'同源策略、跨域',
-                    describe:'了解同源策略，以及常用的跨域方法,并写了相应博客。'
+                    describe:'了解同源策略，以及常用的跨域方法。'
                 }, 
             ],
             statement:{
