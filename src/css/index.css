@@ -70,7 +70,6 @@ main{
     justify-content: center;
     align-items: center;
 
-
 }
 
 .infoShow .name h1{
@@ -198,7 +197,7 @@ main .splitLine .outLine{
 }
 
 main .splitLine .inLine{
-    border-top:2px solid rgb(32,32,32);
+    border-top:3px solid rgb(32,32,32);
     width:8%;
     position: absolute;
     bottom:0px;

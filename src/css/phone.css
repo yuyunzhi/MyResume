@@ -35,7 +35,7 @@ main{
 }
 
 .resume{
-    width:84vw;
+    width:90vw;
     position: relative;
     top:0;
     left:50%;
@@ -69,7 +69,7 @@ main{
     font-size:14px;
     display: flex;
     flex-direction: row;
-    margin:2px 0;
+    margin:4px 0;
 }
 
 .infoShow .infomation .icon{
@@ -122,7 +122,11 @@ main{
 
 }
 .projectShow .content .project{
-    margin:5px 0;
+    margin:1.5vw 0;
+}
+
+.projectShow .content .project span{
+    line-height:5vw;
 }
 
 .projectShow .content strong{
@@ -172,14 +176,14 @@ main{
 
 main .splitLine p{
     margin-bottom:6px;
-    margin-top:2.2vw;
+    margin-top:2.8vw;
     font-size: 14px;
 }
 main .splitLine .outLine{
     border-top:2px solid rgb(222,222,222);
     width:100%;
     position: relative;
-    margin-bottom:3.2vw;
+    margin-bottom:3.8vw;
 }
 
 main .splitLine .inLine{
