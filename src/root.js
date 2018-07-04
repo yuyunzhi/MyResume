@@ -145,7 +145,7 @@ const app = new Vue({
                     describe:''
                 },    
                 {
-                    name:'LocalStorage、Cache-Control、Etag、Expires',
+                    name:'LocalStorage、Cache-Control、Etag',
                     describe:''
                 }, 
                 {
