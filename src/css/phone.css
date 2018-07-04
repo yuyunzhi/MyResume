@@ -69,7 +69,7 @@ main{
     font-size:14px;
     display: flex;
     flex-direction: row;
-    margin:4px 0;
+    margin:10px 0;
 }
 
 .infoShow .infomation .icon{
