@@ -14,7 +14,7 @@ const app = new Vue({
             },
             projects:[
                 {
-                    name:'网易云音乐',
+                    name:'《网易云音乐》',
                     useSkill:'jQuery、响应式布局 、MVC、Observer设计模式、七牛&LeanCloud数据库、Swiper',
                     imgLink:'./img/1.jpg',
                     sourceLink:'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/music-2018-06',
@@ -23,7 +23,7 @@ const app = new Vue({
                     describe:'移动端播放歌曲、切换、暂停、搜索等功能，PC 端歌曲上传、删除、修改等功能。使用 jQuery、MVC，以及七牛、LeanCloud牛等作为数据库实现。使用vConsole进行调试。'
                 },
                 {
-                    name:'Vue在线简历编辑器',
+                    name:'《Vue在线简历编辑器》',
                     useSkill:'vue.js、vue-router.js、keep-alive、组件通信、LeanCloud、媒体查询',
                     imgLink:'./img/2.jpg',
                     sourceLink:'https://github.com/yuyunzhi/Vue-resume-2018-06',
@@ -32,7 +32,7 @@ const app = new Vue({
                     describe:'Vue简历编辑器，通过Vue-router实现路由切换功能，使用兄弟组件通信及keep-alive进行数据的传递和页面缓存，使用leanCloud完成用户的登录、注册、登出的功能，使用v-model实现了数据的编辑和保存双向绑定，通过获取url的id来区分用户登录和分享的状态，通过媒体查询切换print的CSS样式。'
                 },
                 {
-                    name:'自定义导航网页',
+                    name:'《自定义导航网页》',
                     useSkill:'原生JavaScript、locationStorage、JSON、favicon、onerror、图床、CSS Gradient Generator',
                     imgLink:'./img/3.jpg',
                     sourceLink:'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/navigation-demo',
@@ -41,7 +41,7 @@ const app = new Vue({
                     describe:'该项目使用原生JS实现一个键盘导航，该导航支持百度、谷歌搜索，键盘字母绑定自定义的网站。协议+域名+/favicon 作为 URL，请求成功后能够获取到网站的图标，用CSS Gradient Generator 实现了键盘颜色的渐变，用locationStorage实现了用户输入url保存到本地的功能。'
                 },
                 {
-                    name:'画一只大白',
+                    name:'《我是一只大白》',
                     useSkill:'JavaScript、jQuery、Prism.js、Rem响应式页面',
                     imgLink:'./img/4.jpg',
                     sourceLink:'https://github.com/yuyunzhi/baymax',
@@ -50,7 +50,7 @@ const app = new Vue({
                     describe:'动态向<style>标签和<pre>标签添加文本，绘制出大白的过程。用css3实现动画的效果，用prism.js实现代码高亮的效果，用rem实现响应式布局，用sass进行编译。'
                 },
                 {
-                    name:'无缝轮播',
+                    name:'《无缝轮播》',
                     useSkill:'JavaScript、jQuery',
                     imgLink:'./img/5.jpg',
                     sourceLink:'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/slides-demo-3',
@@ -59,7 +59,7 @@ const app = new Vue({
                     describe:'该无缝轮播能够自动播放、点击前后按钮切换图片、点击第N个灰色按钮切换到第N张图片。通过百分比布局实现更改图片尺寸不影响无缝轮播效果，通过jQuery动态生成与img数量相等的button，通过jQuery动态增删class来激活button的状态。'
                 },
                 {
-                    name:'Canvas画板',
+                    name:'《Canvas画板》',
                     useSkill:'原生JavaScript、Canvas、移动端、SVG、特性检测',
                     imgLink:'./img/6.jpg',
                     sourceLink:'https://github.com/yuyunzhi/drawingBoard',
@@ -68,7 +68,7 @@ const app = new Vue({
                     describe:'该项目使用原生JS实现，主要调用 Canvas API，实现了线粗、调色、橡皮擦、保存等功能。用 context.clearRect()实现了 橡皮檫和清屏的功能，用 className切换实现了笔的线粗、颜色切换的功能，用meta:vp、特性检测、ontouch事件实现了触屏设备与web端兼容。'
                 },
                 {
-                    name:'2048-Game',
+                    name:'《2048-Game》',
                     useSkill:'JavaScript、jQuery',
                     imgLink:'./img/7.jpg',
                     sourceLink:'https://github.com/yuyunzhi/2048-game',
@@ -82,23 +82,23 @@ const app = new Vue({
             skills:[
                 {
                     name:'HTML 5',
-                    describe:'根据 HTML5 标准编写具有语义化的文档结构，包括 <nav>、<header>、<main>、<section>、<article>、<aside>、<footer> 等'
+                    describe:'能够根据HTML5标准书写结构良好，并且符合语义化的html代码。如标签<header>、<main>、<section>、<footer> 等'
                 },   
                 {
                     name:'DIV+CSS布局与居中',
-                    describe:''
+                    describe:'能够使用flex、float+清除浮动布局，能够用多种方式进行水平居中、垂直居中。'
                 },   
                 {
-                    name:'Canvans',
-                    describe:''
+                    name:'Canvas、SVG',
+                    describe:'能够使用Canvas的部分API进行画图，并用Canvas做了《Canvas画板》写了相关的博客。了解Canvas与SVG的区别。'
                 }, 
                 {
                     name:'原生JavaScript',
-                    describe:''
+                    describe:'能够使用原生JS进行dom元素的操作，事件的监听等。用原生JS做了《自定义导航网页》。'
                 }, 
                 {
                     name:'响应式布局',
-                    describe:''
+                    describe:'能够使用meta:viewport、媒体查询、动态rem、vw/vh进行响应式布局，用媒体查询做了浏览的这个简历，用rem做了《我是一只大白》。'
                 },  
                 {
                     name:'jQuery',
@@ -106,6 +106,10 @@ const app = new Vue({
                 },    
                 {
                     name:'Vue.js',
+                    describe:''
+                }, 
+                {
+                    name:'MVC、Observer设计模式',
                     describe:''
                 }, 
                 {
@@ -120,8 +124,9 @@ const app = new Vue({
                     name:'DOM事件模型',
                     describe:''
                 },   
+
                 {
-                    name:'MVC、Observer设计模式',
+                    name:'模块化、组件化',
                     describe:''
                 }, 
                 {
