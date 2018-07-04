@@ -102,7 +102,7 @@ const app = new Vue({
                 },  
                 {
                     name:'jQuery',
-                    describe:'能够使用 jQuery 进行 DOM 操作，使用常见的API完成需求。'
+                    describe:'能够使用 jQuery 进行 DOM 操作，使用常见的API完成需求。用jQuery做了轮播和2048游戏。'
                 },    
                 {
                     name:'Vue.js',
