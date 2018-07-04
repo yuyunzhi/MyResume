@@ -134,7 +134,7 @@ const app = new Vue({
                 }, 
                 {
                     name:'JSONP',
-                    describe:'了解JSONP的概念。'
+                    describe:'了解JSONP的概念，知道它的使用逻辑。'
                 },    
                 {
                     name:'AJAX、Promise',
