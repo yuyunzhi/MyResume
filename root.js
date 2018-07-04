@@ -154,7 +154,7 @@ const app = new Vue({
                 },    
                 {
                     name:'同源策略、跨域',
-                    describe:'了解同源策略，以及常用的跨域方法。'
+                    describe:'了解同源策略，以及常用的跨域方法,并写了相应博客。'
                 }, 
             ],
             statement:{
