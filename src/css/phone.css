@@ -162,6 +162,7 @@ main{
 .skillShow .skillDescribe{
     display: block;
     margin-top: 6px;
+    line-height: 25px;
     overflow:hidden;
 }
 
@@ -169,6 +170,10 @@ main{
     border:1px dashed #888;
     margin-bottom:1.9vw;
     padding:5px 1.2vw;
+}
+
+.statement .statementShow p{
+    line-height: 25px;
 }
 
 

@@ -1,5 +1,6 @@
 
 const app = new Vue({
+
     data:{
         displayresume:{
             info:{
@@ -84,9 +85,81 @@ const app = new Vue({
                     describe:'根据 HTML5 标准编写具有语义化的文档结构，包括 <nav>、<header>、<main>、<section>、<article>、<aside>、<footer> 等'
                 },   
                 {
-                    name:'HTML 5',
-                    describe:'根据 HTML5 标准编写具有语义化的文档结构，包括 <nav>、<header>、<main>、<section>、<article>、<aside>、<footer> 等'
-                },              
+                    name:'DIV+CSS布局与居中',
+                    describe:''
+                },   
+                {
+                    name:'Canvans',
+                    describe:''
+                }, 
+                {
+                    name:'原生JavaScript',
+                    describe:''
+                }, 
+                {
+                    name:'响应式布局',
+                    describe:''
+                },  
+                {
+                    name:'jQuery',
+                    describe:''
+                },    
+                {
+                    name:'Vue.js',
+                    describe:''
+                }, 
+                {
+                    name:'new、this、闭包、原型链、作用域',
+                    describe:''
+                },    
+                {
+                    name:'继承',
+                    describe:''
+                }, 
+                {
+                    name:'DOM事件模型',
+                    describe:''
+                },   
+                {
+                    name:'MVC、Observer设计模式',
+                    describe:''
+                }, 
+                {
+                    name:'命令行',
+                    describe:''
+                },    
+                {
+                    name:'HTTP',
+                    describe:''
+                }, 
+                {
+                    name:'JSONP',
+                    describe:''
+                },    
+                {
+                    name:'AJAX、Promise',
+                    describe:''
+                }, 
+                {
+                    name:'Cookie和Session',
+                    describe:''
+                },    
+                {
+                    name:'LocalStorage、Cache-Control、Etag、Expires',
+                    describe:''
+                }, 
+                {
+                    name:'Web性能优化',
+                    describe:''
+                },    
+                {
+                    name:'同源策略、跨域',
+                    describe:''
+                }, 
+                {
+                    name:'',
+                    describe:''
+                },    
             ],
             statement:{
                 content:'2017年6月毕业于苏州科技大学，在大学期间做个三年的公益教育并在大四担任青年行苏州区域项目负责人，独立负责14万项目运营经费，团队规模70人，半年超额完成公司业绩同时完成团队的传承。毕业后来到上海一家公司做运营，工作四个月接触了前端，发现自己热爱技术。至今为止脱产自学前端半年，热爱写代码，享受通过各种代码组合做出想要成果的过程，享受解决bug的过程，享受创造的过程。'
