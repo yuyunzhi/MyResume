@@ -47,7 +47,7 @@ const app = new Vue({
                     sourceLink:'https://github.com/yuyunzhi/baymax',
                     previewLink:'https://yuyunzhi.github.io/baymax/index.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/37428081',
-                    describe:'动态向<style>标签和<pre>标签添加文本，绘制出大白的过程。用css3实现动画的效果，用prism.js实现代码高亮的效果，用rem实现响应式布局，用sass进行编译。'
+                    describe:'动态向<style>标签和<pre>标签添加文本，绘制出大白的过程。用css3实现动画的效果，用prism.js实现代码高亮的效果，用rem实现响应式布局。'
                 },
                 {
                     name:'《无缝轮播》',
@@ -166,7 +166,6 @@ const app = new Vue({
             skills:'技能 / SKILLS',
             stateself:'经历 / EXPERIENCE'
         },
-
     },
 
 }).$mount('#app')
