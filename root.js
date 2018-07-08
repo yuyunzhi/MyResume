@@ -82,15 +82,15 @@ const app = new Vue({
             skills:[
                 {
                     name:'HTML 5',
-                    describe:'能够根据HTML5标准书写结构良好，并且符合语义化的html代码。如标签<header>、<main>、<section>、<footer> 等'
+                    describe:'能够根据HTML5标准书写出符合语义化的html代码。如标签<header>、<main>、<section>、<footer> 等。'
                 },   
                 {
                     name:'DIV+CSS布局与居中',
                     describe:'能够使用flex、float+清除浮动布局，能够用多种方式进行水平居中、垂直居中。'
                 },   
                 {
-                    name:'Canvas、SVG',
-                    describe:'能够使用Canvas的部分API进行画图，并用Canvas做了《Canvas画板》写了相关的博客。了解Canvas与SVG的区别。'
+                    name:'Canvas',
+                    describe:'能够使用Canvas的部分API进行画图，并用Canvas做了《Canvas画板》写了相关的博客。'
                 }, 
                 {
                     name:'原生JavaScript',
@@ -98,7 +98,7 @@ const app = new Vue({
                 }, 
                 {
                     name:'响应式布局、移动端适配',
-                    describe:'能够使用meta:viewport、媒体查询、动态rem、vw/vh进行响应式布局，用媒体查询做了该简历，用rem做了《我是一只大白》。'
+                    describe:'能够使用meta:viewport、媒体查询、动态rem、vw/vh进行响应式布局，用媒体查询做了该简历，用rem做了大白。'
                 },  
                 {
                     name:'jQuery',
@@ -167,5 +167,9 @@ const app = new Vue({
             stateself:'经历 / EXPERIENCE'
         },
     },
-
+    methods:{
+        xxx(){
+            window.print()
+        }
+    }
 }).$mount('#app')

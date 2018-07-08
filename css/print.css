@@ -10,10 +10,10 @@ body{
 .page{
     position: relative;
 }
-.buttonsss{
-    
-        display: none;
-    }
+.buttonsss{   
+    display: none;
+}
+
 .icon {
    width: 1em; height: 1em;
    vertical-align: -0.15em;
@@ -46,18 +46,26 @@ main{
     margin:10vw 0;
 }
 
+.resume .info{
+    width:79.5vw;
+    height:14.2vw;
+}
 
 .infoShow{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin:1.2vw 0;
 }
 
+.personalInformation{
+    display: none;
+}
 .infoShow .name{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom:7.1vw
 
 }
 
@@ -66,20 +74,19 @@ main{
     margin-bottom:1vw;
 }
 .infoShow .infomation{
-    margin-left:1.34vw;
+    margin-left:7.34vw;
 }
 .infoShow .infomation .iconAndContent{
     font-size:14px;
     display: flex;
     flex-direction: row;
-    margin:10px 0;
+    margin:2px 0;
 }
 
 .infoShow .infomation .icon{
     margin-right:1.22vw;
     margin-top:2px;
 }
-
 .statementShow p{
     width:100%;
     margin-bottom: 10px;
@@ -87,49 +94,44 @@ main{
 .oneProject .projectShow{
     border:1px dashed #888;
     margin-bottom:10px;
-    padding: 1vw 0;
+    padding: 10px 0;
 }
-
-.projectShow .pictureAndLink .projectLink{
-    width:90%;
-    position: relative;
-    left:50%;
-    transform: translateX(-48%);
+.projectShow .pictureAndLink{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
+.projectShow .pictureAndLink .projectLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -40px;
+}
+
 .projectShow .pictureAndLink .projectLink .links{
-    margin:1.8vw 0;
-    margin-left: -5vw;
+    margin:15px 0;
 }
 
 
-.projectShow .pictureAndLink .projectLink .links a:active{
+.projectShow .pictureAndLink .projectLink .links a:hover{
     color:blue;
 }
 
 .projectShow .projectPicture{
-    width:90%;
-    left:50%;
-    transform: translateX(-50%);
+    width:520px;
+    height:281px;
     position: relative;
+    margin-bottom:15px;
 }
 .projectShow .content{
     position: relative;
     top:0;
     left:50%;
     transform: translateX(-50%);
-    padding:0 4vw;
-
+    padding: 0 33px;
 }
 .projectShow .content .project{
-    margin:1.5vw 0;
-}
-
-.projectShow .content .project span{
-    line-height:25px;
+    margin:5px 0;
 }
 
 .projectShow .content strong{
@@ -139,7 +141,7 @@ main{
 
 .projectShow .projectDescribe{
     width:100%;
-    margin-bottom: 1.9vw;
+    margin-bottom: 16px;
 }
 
 .skills ul{
@@ -150,7 +152,7 @@ main{
 }
 
 .skills ul li{
-    width:100%;
+    width:49%;
 }
 .skillShow .skillName{
     display: flex;
@@ -164,17 +166,15 @@ main{
 
 .skillShow .skillDescribe{
     display: block;
+    height:62px;
     margin-top: 6px;
-    line-height: 25px;
     overflow:hidden;
 }
 
 .skillShow{
     border:1px dashed #888;
-    margin-bottom:1.9vw;
-    padding:5px 1.2vw;
+    margin-bottom:15px;
 }
-
 .statement .statementShow p{
     line-height: 25px;
 }
