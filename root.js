@@ -107,7 +107,12 @@ const app = new Vue({
                 {
                     name:'Vue.js',
                     describe:'能够使用Vue.js完成需求，了解Vue.js的数据双向绑定、父子兄弟组件间的通信原理，能够使用Vue-Router制作前端路由。'
-                },                 {
+                }, 
+                {
+                    name:'Bootstrap',
+                    describe:'能够使用 Bootstrap 做出好看的网页。'
+                },                    
+                {
                     name:'Git版本管理工具',
                     describe:'了解git，能够使用git的命令行进行代码版本的管理，并写了相应博客。'
                 }, 
