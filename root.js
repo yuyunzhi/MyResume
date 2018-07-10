@@ -117,8 +117,8 @@ const app = new Vue({
                     describe:'了解git，能够使用git的命令行进行代码版本的管理，并写了相应博客。'
                 }, 
                 {
-                    name:'MVC、Observer设计模式',
-                    describe:'了解 MVC、Observer 设计模式，能够运用到实际的开发中。'
+                    name:'MVC、Observer、MVVM设计模式',
+                    describe:'了解 MVC、Observer、MVVM 设计模式，能够运用到实际的开发中。'
                 }, 
                 {
                     name:'new、this、闭包、原型链、作用域',
