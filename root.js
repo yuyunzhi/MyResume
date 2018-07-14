@@ -24,12 +24,21 @@ const app = new Vue({
                 },
                 {
                     name:'《Vue在线简历编辑器》',
-                    useSkill:'vue.js、vue-router.js、keep-alive、组件通信、LeanCloud、媒体查询',
+                    useSkill:'vue.js、vue-router、keep-alive、组件通信、LeanCloud、媒体查询',
                     imgLink:'./img/2.jpg',
                     sourceLink:'https://github.com/yuyunzhi/Vue-resume-2018-06',
                     previewLink:'https://yuyunzhi.github.io/Vue-resume-2018-06/src/index.html',
                     blogLink:'https://zhuanlan.zhihu.com/p/38302712',
                     describe:'Vue简历编辑器，通过Vue-router实现路由切换功能，使用兄弟组件通信及keep-alive进行数据的传递和页面缓存，使用leanCloud完成用户的登录、注册、登出的功能，使用v-model实现了数据的编辑和保存双向绑定，通过获取url的id来区分用户登录和分享的状态，通过媒体查询切换print的CSS样式。'
+                },
+                {
+                    name:'《CNODE社区》',
+                    useSkill:'vue-cli 、vue-router、vue-resource、filter、computed、组件通信、生命周期，MVVM，webpack。',
+                    imgLink:'./img/7.jpg',
+                    sourceLink:'https://github.com/yuyunzhi/vue-cnode-social',
+                    previewLink:'https://yuyunzhi.github.io/vue-cnode-social/dist/index.html',
+                    blogLink:'https://zhuanlan.zhihu.com/p/39766800',
+                    describe:'使用vue-cli作为脚手架，使用vue-router进行前端路由的切换及传参，使用watch监听路由的变化，使用axios获取数据，JSON格式化工具对数据整理，webpack打包。'
                 },
                 {
                     name:'《自定义导航网页》',
@@ -67,17 +76,6 @@ const app = new Vue({
                     blogLink:'https://zhuanlan.zhihu.com/p/37321285',
                     describe:'该项目使用原生JS实现，主要调用 Canvas API，实现了线粗、调色、橡皮擦、保存等功能。用 context.clearRect()实现了 橡皮檫和清屏的功能，用 className切换实现了笔的线粗、颜色切换的功能，用meta:vp、特性检测、ontouch事件实现了触屏设备与web端兼容。'
                 },
-                {
-                    name:'《2048-Game》',
-                    useSkill:'JavaScript、jQuery',
-                    imgLink:'./img/7.jpg',
-                    sourceLink:'https://github.com/yuyunzhi/2048-game',
-                    previewLink:'https://yuyunzhi.github.io/2048-game/index.html',
-                    blogLink:'https://zhuanlan.zhihu.com/p/38485186',
-                    describe:'使用jQuery动态生成元素，动态更改CSS样式，动态更改分值，伪协议初始化游戏。'
-                },
-                
-                
             ],
             skills:[
                 {
@@ -106,8 +104,16 @@ const app = new Vue({
                 },    
                 {
                     name:'Vue.js',
-                    describe:'能够使用Vue.js完成需求，了解Vue.js的数据双向绑定、父子兄弟组件间的通信原理，能够使用Vue-Router制作前端路由。'
+                    describe:'能够使用Vue.js完成需求，vue-cli、vue-router、vue-resource、vuex、计算属性、组件通信，动态组件，插槽、数据绑定等。'
                 }, 
+                {
+                    name:'MVC、Observer、MVVM设计模式',
+                    describe:'了解 MVC、Observer、MVVM 设计模式，能够运用到实际的开发中。'
+                }, 
+                {
+                    name:'webpack',
+                    describe:'了解webpack基础操作，能够安装webpack及配置相关loader,如bable-loader、sass-loader、postcss-loader。'
+                },    
                 {
                     name:'Bootstrap',
                     describe:'能够使用 Bootstrap 做出好看的网页。'
@@ -115,10 +121,6 @@ const app = new Vue({
                 {
                     name:'Git版本管理工具',
                     describe:'了解git，能够使用git的命令行进行代码版本的管理，并写了相应博客。'
-                }, 
-                {
-                    name:'MVC、Observer、MVVM设计模式',
-                    describe:'了解 MVC、Observer、MVVM 设计模式，能够运用到实际的开发中。'
                 }, 
                 {
                     name:'new、this、闭包、原型链、作用域',
