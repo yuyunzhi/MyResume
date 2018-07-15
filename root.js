@@ -104,7 +104,7 @@ const app = new Vue({
                 },    
                 {
                     name:'Vue.js',
-                    describe:'能够使用Vue.js完成需求，vue-cli、vue-router、vue-resource、vuex、计算属性、组件通信，动态组件，插槽、数据绑定等。'
+                    describe:'能够使用Vue.js完成需求，vue-cli、vue-router、vue-resource、vuex、slot、filters、组件通信、数据绑定等。'
                 }, 
                 {
                     name:'MVC、Observer、MVVM设计模式',
