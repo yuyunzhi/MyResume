@@ -8,6 +8,26 @@ body{
     background:rgb(195,188,178);
     font-size:14px;
 }
+.downloadMyResume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    width: 82px;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    background: rgb(62,63,68);
+    color: rgb(195,188,178);
+    cursor: pointer;
+    position: absolute;
+    top:70px;
+    right:30px;
+}
+
+.downloadMyResume:hover{
+    color:white;
+}
 .buttonsss{
     width:100px;
     height:100px;

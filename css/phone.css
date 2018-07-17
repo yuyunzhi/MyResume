@@ -10,6 +10,9 @@ body{
 .page{
     position: relative;
 }
+.downloadMyResume{
+    display: none;
+}
 .buttonsss{
     
         display: none;
