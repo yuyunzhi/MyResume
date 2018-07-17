@@ -15,7 +15,7 @@ const app = new Vue({
             projects:[
                 {
                     name:'《网易云音乐》',
-                    useSkill:'jQuery、响应式布局 、MVC、Observer设计模式、七牛&LeanCloud数据库、Swiper',
+                    useSkill:'MVC、Observer设计模式、jQuery、响应式布局 、七牛&LeanCloud数据库、Swiper',
                     imgLink:'./img/1.jpg',
                     sourceLink:'https://link.zhihu.com/?target=https%3A//github.com/yuyunzhi/music-2018-06',
                     previewLink:'https://yuyunzhi.github.io/music-2018-06/src/index.html',
@@ -33,7 +33,7 @@ const app = new Vue({
                 },
                 {
                     name:'《CNODE社区》',
-                    useSkill:'vue-cli 、vue-router、vue-resource、filter、computed、组件通信、生命周期，MVVM，webpack。',
+                    useSkill:'MVVM、组件化、vue-cli 、vue-router、vue-resource、filter、computed、生命周期、webpack。',
                     imgLink:'./img/7.jpg',
                     sourceLink:'https://github.com/yuyunzhi/vue-cnode-social',
                     previewLink:'https://yuyunzhi.github.io/vue-cnode-social/dist/index.html',
@@ -164,7 +164,7 @@ const app = new Vue({
                 }, 
             ],
             statement:{
-                content:'2017年6月毕业于苏州科技大学，在大学期间做了三年的公益教育并在大四担任青年行苏州区域项目负责人，独立负责14万项目运营经费，团队规模70人，半年超额完成公司业绩同时完成团队的传承。毕业后来到上海一家公司做运营，工作四个月接触了前端，发现自己热爱技术。至今为止脱产自学前端半年，热爱写代码，享受通过各种代码组合做出想要成果的过程，享受解决bug的过程，享受创造的过程。'
+                content:'2017年6月毕业于苏州科技大学，在大学期间做了三年的公益教育并在大四担任青年行苏州区域项目负责人，团队规模70人，半年超额完成公司业绩同时完成团队的传承。毕业后来到上海青桐网络科技有限公司做运营，工作四个月接触了前端，发现自己热爱技术。至今为止脱产自学前端半年，热爱写代码，享受通过各种代码组合做出想要成果的过程，享受解决bug的过程，享受创造的过程。'
             },
         },
         line:{
